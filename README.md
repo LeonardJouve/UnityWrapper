@@ -35,8 +35,8 @@ test unity as a library
     
         @Override
         public void onDestroy() {
-            mUnityPlayer.quit();
             super.onDestroy();
+            mUnityPlayer.quit();
         }
     
         @Override
