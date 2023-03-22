@@ -1,7 +1,7 @@
 # UnityWrapper
 test unity as a library
 
-- add unityStreamingAssets= in project gradle.properties
+- add ```unityStreamingAssets=``` in project gradle.properties
 - add ndk.dir=your_ndk_path in local.properties (NDK path can be found in Unity preferences)
 - add ```<string name="game_view_content_description">Game view</string>``` in app/res/values/strings.xml
 - export your unity project with ```IL2CPP``` as scripting backend, ARMv7 and ARM64 architecture, 'Export Project' and 'Symlink Sources' checked
